@@ -1,0 +1,26 @@
+/* kalkulator grid */
+.grid-container {
+  display: grid;
+  grid-gap: 5px ;
+  grid-template-columns: 50px 50px 50px 50px;
+}
+input{
+  grid-column: 1 /span 4 ;
+}
+.g-red {
+  grid-column: 1/span 2;
+  background-color: red;
+  color: white;
+}
+.g-yellow {
+  background-color: yellow;
+  color: black;
+}
+.g-green {
+  background-color: green;
+  color: white;
+}
+.g-black {
+  background-color: black;
+  color: white;
+}
